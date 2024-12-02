@@ -7,6 +7,9 @@
     <title>ParadoxNetCafe | @yield('title')</title>
     @vite('resources/css/app.css')
 
+    {{-- Remixicon CDN --}}
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    
 </head>
 <body>
     @include('partials.navbar')
