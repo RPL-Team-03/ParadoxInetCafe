@@ -28,7 +28,7 @@
 </div>
 
 {{-- Card Container --}}
-<div class="flex bg-black items-center justify-center">
+<div class="flex bg-black items-center justify-center py-6">
     {{-- Card 1 --}}
     <div class="py-10 mx-10">
         <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
@@ -111,6 +111,29 @@
                 </a>
             </div>
         </div>
+    </div>
+</div>
+
+{{-- Pricelist --}}
+<div class="bg-black">
+    <div class="flex text-white py-20 px-64 items-center justify-end">
+        <h1 class="text-5xl font-extrabold">PRICELIST</h1>
+    </div>
+    <div class="flex space-x-24 p-10 items-center justify-center">
+        <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <h5 class="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white justify-center text-center">REGULER</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        </a>
+        
+        <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <h5 class="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white justify-center text-center">VVIP</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        </a>
+
+        <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <h5 class="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white justify-center text-center">BATTLE ARENA</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        </a>
     </div>
 </div>
 @endsection
