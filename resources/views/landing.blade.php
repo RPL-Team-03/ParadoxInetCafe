@@ -120,19 +120,110 @@
         <h1 class="text-5xl font-extrabold">PRICELIST</h1>
     </div>
     <div class="flex space-x-24 p-10 items-center justify-center">
+
+        {{-- Regular Pricelist --}}
         <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <h5 class="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white justify-center text-center">REGULER</h5>
-            <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+            <div class="grid grid-flow-row-dense grid-cols-2 items-center">
+                <div class="p-5 text-white">
+                    <div class="flex flex-col mt-3">
+                        <div class="space-y-2">
+                            <h3 class="text-lg font-semibold leading-normal">1 Hour</h3>
+                            <h3 class="text-lg font-semibold leading-normal">3 Hour</h3>
+                            <h3 class="text-lg font-semibold leading-normal">5 Hour</h3>
+                            <h3 class="text-lg font-semibold leading-normal">10 Hour</h3>
+                            <h3 class="text-lg font-semibold leading-normal col-span-2">Paket Pagi (06.00 - 12.00)</h3>
+                            <h3 class="text-lg font-semibold leading-normal col-span-2">Paket Malam (19.00 - 05.00)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-end text-white pr-6">
+                    <div class="flex flex-col">
+                        <div class="space-y-2">
+                            <h3 class="text-lg font-semibold leading-normal">5K</h3>
+                            <h3 class="text-lg font-semibold leading-normal">14K</h3>
+                            <h3 class="text-lg font-semibold leading-normal">23K</h3>
+                            <h3 class="text-lg font-semibold leading-normal">45K</h3>
+                        </div>
+                        <div class="pt-5">
+                            <div class="space-y-10">
+                                <h3 class="text-lg font-semibold leading-normal">15K</h3>
+                                <h3 class="text-lg font-semibold leading-normal">15K</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </a>
         
+        {{-- VVIP Pricelist --}}
         <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <h5 class="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white justify-center text-center">VVIP</h5>
-            <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+            <div class="grid grid-flow-row-dense grid-cols-2 items-center">
+                <div class="p-5 text-white">
+                    <div class="flex flex-col mt-3">
+                        <div class="space-y-2">
+                            <h3 class="text-lg font-semibold leading-normal">1 Hour</h3>
+                            <h3 class="text-lg font-semibold leading-normal">3 Hour</h3>
+                            <h3 class="text-lg font-semibold leading-normal">5 Hour</h3>
+                            <h3 class="text-lg font-semibold leading-normal">10 Hour</h3>
+                            <h3 class="text-lg font-semibold leading-normal col-span-2">Paket Pagi (06.00 - 12.00)</h3>
+                            <h3 class="text-lg font-semibold leading-normal col-span-2">Paket Malam (19.00 - 05.00)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-end text-white pr-6">
+                    <div class="flex flex-col">
+                        <div class="space-y-2">
+                            <h3 class="text-lg font-semibold leading-normal">7K</h3>
+                            <h3 class="text-lg font-semibold leading-normal">20K</h3>
+                            <h3 class="text-lg font-semibold leading-normal">30K</h3>
+                            <h3 class="text-lg font-semibold leading-normal">60K</h3>
+                        </div>
+                        <div class="pt-5">
+                            <div class="space-y-10">
+                                <h3 class="text-lg font-semibold leading-normal">25K</h3>
+                                <h3 class="text-lg font-semibold leading-normal">40K</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </a>
 
+        {{-- Battle Arena Pricelist --}}
         <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <h5 class="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white justify-center text-center">BATTLE ARENA</h5>
-            <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+            <div class="grid grid-flow-row-dense grid-cols-2 items-center">
+                <div class="p-5 text-white">
+                    <div class="flex flex-col mt-3">
+                        <div class="space-y-2">
+                            <h3 class="text-lg font-semibold leading-normal">1 Hour</h3>
+                            <h3 class="text-lg font-semibold leading-normal">3 Hour</h3>
+                            <h3 class="text-lg font-semibold leading-normal">5 Hour</h3>
+                            <h3 class="text-lg font-semibold leading-normal">10 Hour</h3>
+                            <h3 class="text-lg font-semibold leading-normal col-span-2">Paket Pagi (06.00 - 12.00)</h3>
+                            <h3 class="text-lg font-semibold leading-normal col-span-2">Paket Malam (19.00 - 05.00)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-end text-white pr-6">
+                    <div class="flex flex-col">
+                        <div class="space-y-2">
+                            <h3 class="text-lg font-semibold leading-normal">5K</h3>
+                            <h3 class="text-lg font-semibold leading-normal">14K</h3>
+                            <h3 class="text-lg font-semibold leading-normal">23K</h3>
+                            <h3 class="text-lg font-semibold leading-normal">45K</h3>
+                        </div>
+                        <div class="pt-5">
+                            <div class="space-y-10">
+                                <h3 class="text-lg font-semibold leading-normal">15K</h3>
+                                <h3 class="text-lg font-semibold leading-normal">25K</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </a>
     </div>
 </div>
