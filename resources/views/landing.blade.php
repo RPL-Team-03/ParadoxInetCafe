@@ -28,9 +28,9 @@
 </div>
 
 {{-- Card Container --}}
-<div class="flex bg-black items-center justify-center py-6">
+<section class="flex bg-black items-center justify-center py-6">
     {{-- Card 1 --}}
-    <div class="py-10 mx-10">
+    <div class="py-10 px-8">
         <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <img class="rounded-t-lg" src="assets/img/BA_1.png" alt="BA_1" />
@@ -51,7 +51,7 @@
     </div>
 
     {{-- Card 2 --}}
-    <div class="py-10 mx-10">
+    <div class="py-10 px-8">
         <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <img class="rounded-t-lg" src="assets/img/BA_2.png" alt="BA_2"/>
@@ -72,12 +72,12 @@
     </div>
 
     {{-- Card 3 --}}
-    <div class="py-10 mx-10">
+    <div class="py-10 px-8">
         <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <img class="rounded-t-lg" src="assets/img/REG.png" alt="Reguler" />
             </a>
-            <div class="p-7">
+            <div class="p-6">
                 <a href="#">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">REGULER SEAT</h5>
                 </a>
@@ -93,7 +93,7 @@
     </div>
 
     {{-- Card 4 --}}
-    <div class="py-10 mx-10">
+    <div class="py-10 px-8">
         <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <img class="rounded-t-lg" src="assets/img/VVIP.png" alt="VVIP" />
@@ -112,10 +112,10 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 {{-- Pricelist --}}
-<div class="bg-black">
+<section class="bg-black">
     <div class="flex text-white py-20 px-64 items-center justify-end">
         <h1 class="text-5xl font-extrabold">PRICELIST</h1>
     </div>
@@ -226,6 +226,13 @@
             </div>
         </a>
     </div>
-</div>
+</section>
+
+{{-- News Section --}}
+<section class="bg-black">
+    <div class="flex text-white py-20 px-72 items-center justify-start">
+        <h1 class="text-5xl font-extrabold">NEWS</h1>
+    </div>
+</section>
 @endsection
     
