@@ -9,3 +9,7 @@ Route::get('/admin', function () {
 Route::get('/', function () {
     return view('landing');
 });
+
+Route::get('/detail', function () {
+    return view('detail_pc');
+});
