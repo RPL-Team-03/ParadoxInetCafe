@@ -10,6 +10,14 @@ Route::get('/', function () {
     return view('landing');
 });
 
-Route::get('/detail', function () {
-    return view('detail_pc');
+Route::get('/reguler', function () {
+    return view('reguler');
+});
+
+Route::get('/vvip', function () {
+    return view('vvip');
+});
+
+Route::get('/BattleArena', function () {
+    return view('battle_arena');
 });

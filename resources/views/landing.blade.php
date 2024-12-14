@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'home')
+@section('title', 'Home')
 @section('container')
 <div class="relative bg-black text-white min-h-screen flex flex-col items-center justify-center">
     <!-- Background Image -->
@@ -43,7 +43,7 @@
                     <i class="ri-computer-line text-white text-lg"></i>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Available : 5</p>
                 </div>
-                <a href="/detail" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
+                <a href="/BattleArena" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
                     Detail
                 </a>
             </div>
@@ -64,7 +64,7 @@
                     <i class="ri-computer-line text-white text-lg"></i>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Available : 5</p>
                 </div>
-                <a href="#" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a href="/BattleArena" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                     Detail
                 </a>
             </div>
@@ -85,7 +85,7 @@
                     <i class="ri-computer-line text-white text-lg"></i>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Available : 5</p>
                 </div>
-                <a href="#" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
+                <a href="/reguler" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
                     Detail
                 </a>
             </div>
@@ -106,7 +106,7 @@
                     <i class="ri-computer-line text-white text-lg"></i>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Available : 5</p>
                 </div>
-                <a href="#" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a href="/vvip" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                     Detail
                 </a>
             </div>

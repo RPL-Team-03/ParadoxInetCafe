@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Detail PC')
+@section('title', 'Detail PC Reguler')
 @section('container')
     <section class="bg-black">
         <div class="flex text-white py-8 px-64 items-center justify-end">
