@@ -7,7 +7,7 @@
     </div>
     <div class="flex items-center space-x-10">
         <div class="flex py-1 space-x-6">
-            <a href="#" class="text-lg font-medium text-white hover:text-blue-300">HOME</a>
+            <a href="/" class="text-lg font-medium text-white hover:text-blue-300">HOME</a>
             <a href="#" class="text-lg font-medium text-white hover:text-blue-300">NEWS</a>
             <a href="#" class="text-lg font-medium text-white hover:text-blue-300">REVIEW</a>
             <a href="#" class="text-lg font-medium text-white hover:text-blue-300">FAQ</a>

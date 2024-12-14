@@ -43,7 +43,7 @@
                     <i class="ri-computer-line text-white text-lg"></i>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Available : 5</p>
                 </div>
-                <a href="#" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
+                <a href="/detail" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
                     Detail
                 </a>
             </div>
@@ -75,7 +75,7 @@
     <div class="py-10 px-8">
         <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-                <img class="rounded-t-lg" src="assets/img/REG.png" alt="Reguler" />
+                <img class="rounded-t-lg" src="assets/img/REG.png" alt="Reguler"/>
             </a>
             <div class="p-6">
                 <a href="#">
