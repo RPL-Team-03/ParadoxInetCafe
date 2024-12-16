@@ -229,9 +229,36 @@
 </section>
 
 {{-- News Section --}}
-<section class="bg-black">
-    <div class="flex text-white py-20 px-72 items-center justify-start">
+<section class="bg-black text-white py-20 px-6 md:px-16 lg:px-50">
+    <!-- Title -->
+    <div class="mb-8">
         <h1 class="text-5xl font-extrabold">NEWS</h1>
+    </div>
+
+    <!-- News Layout -->
+    <div class="flex flex-wrap gap-6">
+        <!-- Left Large News Card -->
+        <div class="relative bg-gray-800 w-full lg:w-[40%] h-[604px] flex items-end p-4">
+            <a href="#" class="text-sm font-semibold absolute bottom-4 right-4">Read More</a>
+        </div>
+        <!-- Right Small News Container -->
+        <div class="flex flex-col gap-6 w-full lg:w-[57%]">
+            <!-- Top Small Card -->
+            <div class="relative bg-gray-800 h-[290px] flex items-end p-4">
+                <a href="#" class="text-sm font-semibold absolute bottom-4 right-4">Read More</a>
+            </div>
+            <!-- Bottom Small Card -->
+            <div class="relative bg-gray-800 h-[290px] flex items-end p-4">
+                <a href="#" class="text-sm font-semibold absolute bottom-4 right-4">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- View All News Button -->
+    <div class="flex justify-center mt-8">
+        <a href="#" class="bg-red-600 hover:bg-red-700 text-white py-3 px-6 rounded text-sm font-bold">
+            View All News
+        </a>
     </div>
 </section>
 @endsection
