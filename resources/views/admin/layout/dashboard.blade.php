@@ -11,22 +11,25 @@
 {{-- Home Admin Page --}}
 <div class="flex h-screen bg-black text-white">
     <!-- Sidebar -->
-    <aside class="w-64 bg-gray-900 flex flex-col py-8">
+    <aside class="w-70 bg-black flex flex-col py-8">
         <!-- Logo -->
-        <div class="px-6 mb-8">
-            <h1 class="text-xl font-bold">PARADOX GAME CENTER</h1>
+        <div class="pl-5">
+            <a href="#" class="flex items-center space-x-4">
+                <img src="assets/img/BASE_8.png" alt="ini logo" class="w-1/6">
+                <span class="text-xl font-bold text-white">PARADOX GAME CENTER</span>
+            </a>
         </div>
 
         <!-- Navigation Menu -->
-        <nav class="flex flex-col space-y-6 px-6">
-            <a href="#" class="text-red-600 font-bold py-2">HOME</a>
-            <a href="#" class="hover:text-red-600 py-2">NEWS</a>
-            <a href="#" class="hover:text-red-600 py-2">DETAIL</a>
+        <nav class="flex flex-col py-10 space-y-6 px-12">
+            <a href="#" class="hover:text-red-600 font-bold py-4 px-4 text-2xl rounded-full">HOME</a>
+            <a href="#" class="hover:text-red-600 font-bold py-4 px-4 text-2xl rounded-full">NEWS</a>
+            <a href="#" class="hover:text-red-600 font-bold py-4 px-4 text-2xl rounded-full">DETAIL</a>
         </nav>
     </aside>
 
     <!-- Main Content -->
-    <main class="flex-1 bg-gray-800 p-8">
+    <main class="flex-1 bg-gray-950 p-8">
         <!-- Header -->
         <div class="mb-8">
             <h1 class="text-4xl font-bold">UPDATE SPACE</h1>
