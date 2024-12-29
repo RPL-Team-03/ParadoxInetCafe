@@ -6,8 +6,8 @@
         <h1 class="text-5xl font-extrabold">DETAIL</h1>
     </div>
     <div class="grid grid-cols-2">
-        <div class="flex items-center justify-center pt-14 pb-32">
-            <img src="assets/img/REG_Detail.jpeg" alt="PC1" class="w-7/12/ mt-6 ml-72 rounded-md"/>
+        <div class="flex items-center justify-center pt-14 pb-64">
+            <img src="assets/img/VVIP_Detail.png" alt="PC1" class="w-9/12 mt-6 ml-72 rounded-md"/>
         </div>
         <div class="text-white mt-20">
             <div class="flex justify-center text-center text-4xl">
