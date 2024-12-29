@@ -5,8 +5,8 @@
     <div class="flex text-white pt-12 px-48 items-center justify-end">
         <h1 class="text-5xl font-extrabold">DETAIL</h1>
     </div>
-    <div class="grid grid-cols-2">
-        <div class="text-white mt-20">
+    <div class="grid grid-cols-2 pt-2">
+        <div class="text-white">
             <div class="flex pl-48 text-center text-4xl">
                 <h1 class="font-extrabold">BATTLE ARENA (B1)<br>SPECIFICATION</h1>
             </div>
