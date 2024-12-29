@@ -11,7 +11,7 @@
         </div>
         <div class="text-white mt-20">
             <div class="flex justify-center text-center text-4xl">
-                <h1 class="font-extrabold">REGULER SPECIFICATION</h1>
+                <h1 class="font-extrabold">VVIP SPECIFICATION</h1>
             </div>
             <div class="space-y-5 justify-center text-center mt-12">
                 <p class="text-3xl font-semibold">NVIDIA GTX 1660 Ti</p>
