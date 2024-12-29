@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
 
-    <title>Paradox Admin | Home</title>
+    <title>Paradox Admin | Detail</title>
 </head>
 {{-- Home Admin Page --}}
 <div class="flex h-screen bg-black text-white">
