@@ -20,8 +20,13 @@
             <a href="#" class="bg-red-500 hover:bg-red-400 text-white text-lg font-medium py-3 px-8 rounded-sm">
                 CONTACT US
             </a>
-            <a href="#" class="bg-blue-500 hover:bg-blue-400 text-white text-lg font-medium py-3 px-8 rounded-sm">
+            <a href="#" class="bg-blue-500 hover:bg-blue-400 text-white text-lg font-medium py-3 px-10 rounded-sm">
                 PRICE LIST
+            </a>
+        </div>
+        <div class="flex justify-center space-x-6 mt-5">
+            <a href="https://paradoxgamestore.my.id/" class="bg-red-500 hover:bg-red-400 text-white text-lg font-medium py-3 px-20 rounded-sm">
+                PARADOX GAME STORE
             </a>
         </div>
     </div>
@@ -33,7 +38,7 @@
     <div class="py-10 px-8">
         <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-                <img class="rounded-t-lg" src="assets/img/BA_1.png" alt="BA_1" />
+                <img class="rounded-t-lg" src="" alt="Image A1" />
             </a>
             <div class="p-7">
                 <a href="#">
@@ -41,9 +46,9 @@
                 </a>
                 <div class="flex space-x-3">
                     <i class="ri-computer-line text-white text-lg"></i>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Available : 5</p>
+                    <p class="mb-3 font-extrabold text-lg text-gray-700 dark:text-gray-400">Available : 5</p>
                 </div>
-                <a href="/BattleArena" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
+                <a href="/BattleArena_A1" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
                     Detail
                 </a>
             </div>
@@ -54,7 +59,7 @@
     <div class="py-10 px-8">
         <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-                <img class="rounded-t-lg" src="assets/img/BA_2.png" alt="BA_2"/>
+                <img class="rounded-t-lg" src="" alt="Image B1"/>
             </a>
             <div class="p-7">
                 <a href="#">
@@ -62,9 +67,9 @@
                 </a>
                 <div class="flex space-x-3">
                     <i class="ri-computer-line text-white text-lg"></i>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Available : 5</p>
+                    <p class="mb-3 font-extrabold text-lg text-gray-700 dark:text-gray-400">Available : 5</p>
                 </div>
-                <a href="/BattleArena" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a href="/BattleArena_B1" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                     Detail
                 </a>
             </div>
@@ -75,7 +80,7 @@
     <div class="py-10 px-8">
         <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-                <img class="rounded-t-lg" src="assets/img/REG.png" alt="Reguler"/>
+                <img class="rounded-t-lg" src="" alt="Image Reguler"/>
             </a>
             <div class="p-6">
                 <a href="#">
@@ -83,7 +88,7 @@
                 </a>
                 <div class="flex space-x-3">
                     <i class="ri-computer-line text-white text-lg"></i>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Available : 5</p>
+                    <p class="mb-3 font-extrabold text-lg text-gray-700 dark:text-gray-400">Available : 5</p>
                 </div>
                 <a href="/reguler" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
                     Detail
@@ -96,7 +101,7 @@
     <div class="py-10 px-8">
         <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-                <img class="rounded-t-lg" src="assets/img/VVIP.png" alt="VVIP" />
+                <img class="rounded-t-lg" src="" alt="Image VVIP" />
             </a>
             <div class="p-7">
                 <a href="#">
@@ -104,7 +109,7 @@
                 </a>
                 <div class="flex space-x-3">
                     <i class="ri-computer-line text-white text-lg"></i>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Available : 5</p>
+                    <p class="mb-3 font-extrabold text-lg text-gray-700 dark:text-gray-400">Available : 5</p>
                 </div>
                 <a href="/vvip" class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                     Detail

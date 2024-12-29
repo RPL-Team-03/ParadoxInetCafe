@@ -18,6 +18,10 @@ Route::get('/vvip', function () {
     return view('vvip');
 });
 
-Route::get('/BattleArena', function () {
-    return view('battle_arena');
+Route::get('/BattleArena_A1', function () {
+    return view('battle_arenaA1');
+});
+
+Route::get('/BattleArena_B1', function () {
+    return view('battle_arenaB1');
 });
