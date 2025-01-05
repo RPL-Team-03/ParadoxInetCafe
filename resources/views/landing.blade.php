@@ -266,5 +266,12 @@
         </a>
     </div>
 </section>
+
+{{-- FAQ Section --}}
+<section class="bg-black text-white">
+    <div class="py-5 justify-start px-16">
+        <h1 class="font-extrabold text-6xl">FAQ</h1>
+    </div>
+</section>
 @endsection
     
