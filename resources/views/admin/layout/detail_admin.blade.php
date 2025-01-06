@@ -23,7 +23,6 @@
         <!-- Navigation Menu -->
         <nav class="flex flex-col py-10 space-y-6 px-12">
             <a href="/admin" class="hover:text-red-600 font-bold py-4 px-4 text-2xl rounded-full">HOME</a>
-            <a href="#" class="hover:text-red-600 font-bold py-4 px-4 text-2xl rounded-full">NEWS</a>
             <a href="/admin_detail" class="hover:text-red-600 font-bold py-4 px-4 text-2xl rounded-full">DETAIL</a>
         </nav>
     </aside>
@@ -32,70 +31,73 @@
     <main class="flex-1 bg-gray-950 p-8">
         <!-- Header -->
         <div class="mb-8">
-            <h1 class="text-4xl font-bold">UPDATE SPACE</h1>
+            <h1 class="text-4xl font-bold">DETAIL</h1>
         </div>
 
-        <!-- Grid Layout -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Card 1 -->
-            <div class="bg-gray-900 rounded-lg p-4">
-                <img src="https://via.placeholder.com/300x150" alt="Reguler" class="rounded-lg mb-4">
-                <h2 class="text-lg font-bold mb-2">REGULER</h2>
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center">
-                        <span class="mr-2">💻 Available:</span>
-                        <input type="number" class="w-16 h-8 text-black rounded px-2" placeholder="0">
-                    </div>
-                    <button class="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded">
-                        Update Picture
-                    </button>
-                </div>
-            </div>
+         <!-- Main Content -->
+    <div class="flex-1 grid grid-cols-3 gap-6 px-12">
+        <!-- Left Image -->
+        <div class="col-span-1">
+            <img src="path_to_image" alt="Detail Image" class="rounded-lg w-full h-full object-cover">
+        </div>
 
-            <!-- Card 2 -->
-            <div class="bg-gray-900 rounded-lg p-4">
-                <img src="https://via.placeholder.com/300x150" alt="VVIP" class="rounded-lg mb-4">
-                <h2 class="text-lg font-bold mb-2">VVIP</h2>
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center">
-                        <span class="mr-2">💻 Available:</span>
-                        <input type="number" class="w-16 h-8 text-black rounded px-2" placeholder="0">
-                    </div>
-                    <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
-                        Update Picture
-                    </button>
-                </div>
+        <!-- Specifications -->
+        <div class="col-span-2 grid grid-cols-2 gap-6">
+            <!-- Reguler Specification -->
+            <div class="bg-black border border-gray-700 p-6 text-center rounded-lg">
+                <h2 class="font-bold text-xl mb-4">REGULER SPECIFICATION</h2>
+                <p>Nvidia GTX 1660ti</p>
+                <p>Intel Core i3-10100F</p>
+                <p>Monitor Zowie 144hz</p>
+                <p>RAM 16</p>
             </div>
-
-            <!-- Card 3 -->
-            <div class="bg-gray-900 rounded-lg p-4">
-                <img src="https://via.placeholder.com/300x150" alt="Battle Arena B1" class="rounded-lg mb-4">
-                <h2 class="text-lg font-bold mb-2">BATTLE ARENA (B1)</h2>
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center">
-                        <span class="mr-2">💻 Available:</span>
-                        <input type="number" class="w-16 h-8 text-black rounded px-2" placeholder="0">
-                    </div>
-                    <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
-                        Update Picture
-                    </button>
-                </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="bg-gray-900 rounded-lg p-4">
-                <img src="https://via.placeholder.com/300x150" alt="Battle Arena A1" class="rounded-lg mb-4">
-                <h2 class="text-lg font-bold mb-2">BATTLE ARENA (A1)</h2>
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center">
-                        <span class="mr-2">💻 Available:</span>
-                        <input type="number" class="w-16 h-8 text-black rounded px-2" placeholder="0">
-                    </div>
-                    <button class="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded">
-                        Update Picture
-                    </button>
-                </div>
+            <!-- VVIP Specification -->
+            <div class="bg-black border border-gray-700 p-6 text-center rounded-lg">
+                <h2 class="font-bold text-xl mb-4">VVIP SPECIFICATION</h2>
+                <p>Nvidia RTX 3060ti</p>
+                <p>Intel Core i5-10400F</p>
+                <p>Monitor Phillips 240hz</p>
+                <p>Hyper X Cloud II</p>
             </div>
         </div>
-    </main>
+    </div>
+
+    <!-- Battle Arena Specifications -->
+    <div class="px-12 mt-8 grid grid-cols-3 gap-6">
+        <!-- Battle Arena (A1) -->
+        <div class="bg-black border border-gray-700 p-6 rounded-lg">
+            <h2 class="font-bold text-xl mb-4">BATTLE ARENA (A1) SPECIFICATION</h2>
+            <p>Intel i7-10700K</p>
+            <p>RAM 32GB</p>
+            <p>VGA RTX 3080 TI</p>
+            <p>Monitor MSI 360HZ</p>
+            <p>Headset Hyper X Cloud II</p>
+            <p>Keyboard MAXFIT81 MK910</p>
+            <p>Mouse Logitech G102</p>
+            <p>Private Room</p>
+        </div>
+        <!-- Battle Arena (B1) -->
+        <div class="bg-black border border-gray-700 p-6 rounded-lg">
+            <h2 class="font-bold text-xl mb-4">BATTLE ARENA (B1) SPECIFICATION</h2>
+            <p>Ryzen 7 5800X</p>
+            <p>RAM 32GB</p>
+            <p>VGA RTX 3080 TI</p>
+            <p>Monitor MSI 360HZ</p>
+            <p>Headset Hyper X Cloud II</p>
+            <p>Keyboard MAXFIT81 MK910</p>
+            <p>Mouse Logitech G102</p>
+            <p>Private Room</p>
+        </div>
+        <!-- Right Image -->
+        <div class="col-span-1">
+            <img src="path_to_image" alt="Detail Image" class="rounded-lg w-full h-full object-cover">
+        </div>
+    </div>
+
+    <!-- Buttons -->
+    <footer class="flex justify-center space-x-4 mt-8 pb-10">
+        <button class="bg-red-600 px-10 py-2  text-lg font-bold">CREATE</button>
+        <button class="bg-red-600 px-10 py-2  text-lg font-bold">UPDATE</button>
+        <button class="bg-red-600 px-10 py-2  text-lg font-bold">DELETE</button>
+    </footer>
 </div>

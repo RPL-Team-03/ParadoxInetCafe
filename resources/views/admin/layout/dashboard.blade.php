@@ -23,7 +23,6 @@
         <!-- Navigation Menu -->
         <nav class="flex flex-col py-10 space-y-6 px-12">
             <a href="/admin" class="hover:text-red-600 font-bold py-4 px-4 text-2xl rounded-full">HOME</a>
-            <a href="#" class="hover:text-red-600 font-bold py-4 px-4 text-2xl rounded-full">NEWS</a>
             <a href="/admin_detail" class="hover:text-red-600 font-bold py-4 px-4 text-2xl rounded-full">DETAIL</a>
         </nav>
     </aside>
