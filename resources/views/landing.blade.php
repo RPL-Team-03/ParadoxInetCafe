@@ -257,14 +257,11 @@
         <div class="py-10 justify-start ml-40">
             <h1 class="font-extrabold text-6xl">FAQ</h1>
         </div>
-        {{-- <div class="bg-gradient-to-r from-blue-500 to-green-500 h-screen flex items-center justify-center">
-        <h1 class="text-white text-4xl">Selamat Datang!</h1>
-    </div> --}}
 
         {{-- Button FAQ  1 --}}
         <div class="px-40">
             <div class="flex text-center items-center px-5 py-2.5 text-white bg-black hover:bg-gray-800-800">
-                <button class="font-medium py-2 text-lg" type="button">
+                <button id="dropdownButton" class="font-medium py-2 text-lg" type="button">
                     Lorem Ipsum dolor sit amet ? <i class="ri-arrow-down-s-line inline-flex px-3.5"></i>
                 </button>
             </div>
@@ -272,17 +269,16 @@
 
         {{-- Dropdown Menu --}}
         <div class="px-40 text-lg font-bold">
-            <div class="flex px-5 py-2.5 bg-black text-white">
+            <div id="dropdownMenu" class="flex px-5 py-2.5 bg-black text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
             </div>
             <div class="pb-10"></div>
         </div>
 
-
         {{-- Button FAQ 2 --}}
         <div class="px-40">
             <div class="flex text-center items-center px-5 py-2.5 text-white bg-black hover:bg-gray-800-800">
-                <button class="font-medium py-2 text-lg" type="button">
+                <button id="dropdownButton" class="font-medium py-2 text-lg" type="button">
                     Lorem Ipsum dolor sit amet ?
                     <i class="ri-arrow-down-s-line inline-flex px-3.5"></i>
                 </button>
@@ -291,7 +287,7 @@
 
         {{-- Dropdown Menu --}}
         <div class="px-40 text-lg font-bold">
-            <div class="flex px-5 py-2.5 bg-black text-white">
+            <div id="dropdownMenu" class="flex px-5 py-2.5 bg-black text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
             </div>
             <div class="pb-10"></div>
