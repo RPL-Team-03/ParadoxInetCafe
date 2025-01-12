@@ -10,6 +10,10 @@
 
     {{-- Remixicon CDN --}}
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    {{-- AOS --}}
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     
 </head>
 <body>
@@ -17,5 +21,10 @@
     <div>
         @yield('container')
     </div>
+    @include('partials.footer')
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </html>

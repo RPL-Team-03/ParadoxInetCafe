@@ -16,7 +16,7 @@
             </p>
 
             <!-- Buttons -->
-            <div class="flex justify-center space-x-6">
+            <div class="flex justify-center space-x-6" data-aos="fade-up" data-aos-duration="1500">
                 <a href="#" class="bg-red-500 hover:bg-red-400 text-white text-lg font-medium py-3 px-8 rounded-sm">
                     CONTACT US
                 </a>
@@ -25,7 +25,7 @@
                     PRICE LIST
                 </a>
             </div>
-            <div class="flex justify-center space-x-6 mt-5">
+            <div class="flex justify-center space-x-6 mt-5" data-aos="fade-up" data-aos-duration="1500">
                 <a href="https://paradoxgamestore.my.id/"
                     class="bg-red-500 hover:bg-red-400 text-white text-lg font-medium py-3 px-20 rounded-sm">
                     PARADOX GAME STORE
@@ -37,7 +37,7 @@
     {{-- Card Container --}}
     <section class="flex bg-black items-center justify-center py-6">
         {{-- Card 1 --}}
-        <div class="py-10 px-8">
+        <div class="py-10 px-8" data-aos="fade-right" data-aos-duration="1000">
             <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="" alt="Image A1" />
@@ -60,7 +60,7 @@
         </div>
 
         {{-- Card 2 --}}
-        <div class="py-10 px-8">
+        <div class="py-10 px-8" data-aos="fade-right" data-aos-duration="1500">
             <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="" alt="Image B1" />
@@ -83,7 +83,7 @@
         </div>
 
         {{-- Card 3 --}}
-        <div class="py-10 px-8">
+        <div class="py-10 px-8" data-aos="fade-right" data-aos-duration="2000">
             <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="" alt="Image Reguler" />
@@ -105,7 +105,7 @@
         </div>
 
         {{-- Card 4 --}}
-        <div class="py-10 px-8">
+        <div class="py-10 px-8" data-aos="fade-right" data-aos-duration="2500">
             <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="" alt="Image VVIP" />
@@ -128,7 +128,7 @@
     </section>
 
     {{-- Pricelist --}}
-    <section class="bg-black">
+    <section class="bg-black pb-16">
         <div class="flex text-white py-20 px-64 items-center justify-end">
             <h1 class="text-5xl font-extrabold">PRICELIST</h1>
         </div>
@@ -136,7 +136,7 @@
 
             {{-- Regular Pricelist --}}
             <a href="#"
-                class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="flip-left" data-aos-duration="1000">
                 <h5
                     class="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white justify-center text-center">
                     REGULER</h5>
@@ -174,7 +174,7 @@
 
             {{-- VVIP Pricelist --}}
             <a href="#"
-                class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="flip-left" data-aos-duration="1500">
                 <h5
                     class="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white justify-center text-center">
                     VVIP</h5>
@@ -213,7 +213,7 @@
 
             {{-- Battle Arena Pricelist --}}
             <a href="#"
-                class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="flip-left" data-aos-duration="2000">
                 <h5
                     class="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white justify-center text-center">
                     BATTLE ARENA</h5>
@@ -253,7 +253,7 @@
     </section>
 
     {{-- FAQ Section --}}
-    <section class="bg-gray-800 text-white">
+    <section class="text-white" style="background-image: url('assets/img/FAQ.png'); background-position: center; background-repeat:no-repeat; background-size: cover;">
         <div class="py-10 justify-start ml-40">
             <h1 class="font-extrabold text-6xl">FAQ</h1>
         </div>
@@ -330,7 +330,7 @@
             <div class="flex px-5 py-2.5 bg-black text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
             </div>
-            <div class="pb-10"></div>
+            <div class="pb-52"></div>
         </div>
 
     </section>
