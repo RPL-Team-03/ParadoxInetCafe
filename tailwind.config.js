@@ -13,6 +13,9 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
                 'quicksand': ['Quicksand', 'sans-serif'],
             },
+            backgroundImage: {
+                'FAQ': "url('assets/img/FAQ.png')",
+            },
         },
     },
     plugins: [],
