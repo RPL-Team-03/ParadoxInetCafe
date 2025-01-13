@@ -37,9 +37,7 @@
          <!-- Main Content -->
     <div class="flex-1 grid grid-cols-3 gap-6 px-12">
         <!-- Left Image -->
-        <div class="col-span-1">
-            <img src="path_to_image" alt="Detail Image" class="rounded-lg w-full h-full object-cover">
-        </div>
+        
 
         <!-- Specifications -->
         <div class="col-span-2 grid grid-cols-2 gap-6">
@@ -90,7 +88,6 @@
         </div>
         <!-- Right Image -->
         <div class="col-span-1">
-            <img src="path_to_image" alt="Detail Image" class="rounded-lg w-full h-full object-cover">
         </div>
     </div>
 

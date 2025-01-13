@@ -253,81 +253,75 @@
     </section>
 
     {{-- FAQ Section --}}
-    <section class="text-white" style="background-image: url('assets/img/FAQ.png'); background-position: center; background-repeat:no-repeat; background-size: cover;">
-        <div class="py-10 justify-start ml-40">
-            <h1 class="font-extrabold text-6xl">FAQ</h1>
+<section class="text-white" style="background-image: url('assets/img/FAQ.png'); background-position: center; background-repeat:no-repeat; background-size: cover;">
+    <div class="py-10 justify-start ml-40">
+        <h1 class="font-extrabold text-6xl">FAQ</h1>
+    </div>
+
+    {{-- FAQ Items --}}
+    <div class="px-40">
+        <div class="mb-10">
+        <div class="flex text-center items-center px-5 py-2.5 text-white bg-black hover:bg-gray-800 cursor-pointer" onclick="toggleFAQ('faq1')">
+            <button class="font-medium py-2 text-lg" type="button">
+                Jam Operasional Warnet ? <i class="ri-arrow-down-s-line inline-flex px-3.5"></i>
+            </button>
         </div>
-
-        {{-- Button FAQ  1 --}}
-        <div class="px-40">
-            <div class="flex text-center items-center px-5 py-2.5 text-white bg-black hover:bg-gray-800-800">
-                <button id="dropdownButton" class="font-medium py-2 text-lg" type="button">
-                    Lorem Ipsum dolor sit amet ? <i class="ri-arrow-down-s-line inline-flex px-3.5"></i>
-                </button>
-            </div>
+        <div id="faq1" class="px-5 py-2.5 bg-black text-white hidden">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
         </div>
+    </div>
+    </div>
 
-        {{-- Dropdown Menu --}}
-        <div class="px-40 text-lg font-bold">
-            <div id="dropdownMenu" class="flex px-5 py-2.5 bg-black text-white">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
-            </div>
-            <div class="pb-10"></div>
+    <div class="px-40">
+        <div class="mb-10">
+        <div class="flex text-center items-center px-5 py-2.5 text-white bg-black hover:bg-gray-800 cursor-pointer" onclick="toggleFAQ('faq2')">
+            <button class="font-medium py-2 text-lg" type="button">
+                Apa Boleh Makan & Minum di Dalam Warnet ? <i class="ri-arrow-down-s-line inline-flex px-3.5"></i>
+            </button>
         </div>
-
-        {{-- Button FAQ 2 --}}
-        <div class="px-40">
-            <div class="flex text-center items-center px-5 py-2.5 text-white bg-black hover:bg-gray-800-800">
-                <button id="dropdownButton" class="font-medium py-2 text-lg" type="button">
-                    Lorem Ipsum dolor sit amet ?
-                    <i class="ri-arrow-down-s-line inline-flex px-3.5"></i>
-                </button>
-            </div>
+        <div id="faq2" class="px-5 py-2.5 bg-black text-white hidden">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
         </div>
+    </div>
+    </div>
 
-        {{-- Dropdown Menu --}}
-        <div class="px-40 text-lg font-bold">
-            <div id="dropdownMenu" class="flex px-5 py-2.5 bg-black text-white">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
-            </div>
-            <div class="pb-10"></div>
+    <div class="px-40">
+        <div class="mb-10">
+        <div class="flex text-center items-center px-5 py-2.5 text-white bg-black hover:bg-gray-800 cursor-pointer" onclick="toggleFAQ('faq3')">
+            <button class="font-medium py-2 text-lg" type="button">
+                Apakah Bisa Booking ? <i class="ri-arrow-down-s-line inline-flex px-3.5"></i>
+            </button>
         </div>
-
-
-        {{-- Button FAQ 3 --}}
-        <div class="px-40">
-            <div class="flex text-center items-center px-5 py-2.5 text-white bg-black hover:bg-gray-800-800">
-                <button class="font-medium py-2 text-lg" type="button">
-                    Lorem Ipsum dolor sit amet ? <i class="ri-arrow-down-s-line inline-flex px-3.5"></i>
-                </button>
-            </div>
+        <div id="faq3" class="px-5 py-2.5 bg-black text-white hidden">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
         </div>
+    </div>
+    </div>
 
-        {{-- Dropdown Menu --}}
-        <div class="px-40 text-lg font-bold">
-            <div class="flex px-5 py-2.5 bg-black text-white">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
-            </div>
-            <div class="pb-10"></div>
+    <div class="px-40">
+        <div class="flex text-center items-center px-5 py-2.5 text-white bg-black hover:bg-gray-800 cursor-pointer" onclick="toggleFAQ('faq4')">
+            <button class="font-medium py-2 text-lg" type="button">
+                Seberapa Banyak Kapasitas Parkir Yang Tersedia ? <i class="ri-arrow-down-s-line inline-flex px-3.5"></i>
+            </button>
         </div>
-
-
-        {{-- Button FAQ 4 --}}
-        <div class="px-40">
-            <div class="flex text-center items-center px-5 py-2.5 text-white bg-black hover:bg-gray-800-800">
-                <button class="font-medium py-2 text-lg" type="button">
-                    Lorem Ipsum dolor sit amet ?<i class="ri-arrow-down-s-line inline-flex px-3.5"></i>
-                </button>
-            </div>
+        <div id="faq4" class="px-5 py-2.5 bg-black text-white hidden">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
         </div>
+    </div>
+    
+    <div class="py-7 justify-start ml-40">   
+    </div>    
+</section>
 
-        {{-- Dropdown Menu --}}
-        <div class="px-40 text-lg font-bold">
-            <div class="flex px-5 py-2.5 bg-black text-white">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
-            </div>
-            <div class="pb-52"></div>
-        </div>
-
-    </section>
-@endsection
+    @endsection
+    
+    <script>
+        function toggleFAQ(faqId) {
+            const faqElement = document.getElementById(faqId);
+            if (faqElement.classList.contains('hidden')) {
+                faqElement.classList.remove('hidden');
+            } else {
+                faqElement.classList.add('hidden');
+            }
+        }
+    </script>
