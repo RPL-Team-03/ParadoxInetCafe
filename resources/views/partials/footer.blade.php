@@ -4,7 +4,7 @@
         <div class="flex flex-col lg:flex-row items-center justify-center lg:space-x-20 text-center lg:text-left space-y-4 lg:space-y-0">
             <!-- Instagram -->
             <div class="flex items-center space-x-2">
-                <img src="path/to/instagram-icon.svg" alt="Instagram Icon" class="h-6 w-6">
+                <img src="assets/img/instagram.png" alt="Instagram Icon" class="h-6 w-6">
                 <a href="https://instagram.com/paradox.gc" class="text-white text-xl font-semibold hover:underline" target="_blank">@paradox.gc</a>
             </div>
 
@@ -13,7 +13,7 @@
 
             <!-- WhatsApp -->
             <div class="flex items-center space-x-2">
-                <img src="path/to/whatsapp-icon.svg" alt="WhatsApp Icon" class="h-6 w-6">
+                <img src="assets/img/whatsapp.png" alt="WhatsApp Icon" class="h-6 w-6">
                 <a href="https://wa.me/628952020****" class="text-white text-xl font-semibold hover:underline" target="_blank">0895-2020-****</a>
             </div>
         </div>
