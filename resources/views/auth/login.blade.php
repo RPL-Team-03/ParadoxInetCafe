@@ -1,45 +1,85 @@
-@extends('layouts.app')
-
-@section('content')
-<div class="flex justify-center items-center min-h-screen bg-gray-100">
-    <div class="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
-        <h2 class="text-2xl font-bold text-center text-gray-800">Login</h2>
-
-        <form method="POST" action="{{ route('login') }}" class="mt-4">
-            @csrf
-
-            <div class="row mb-3">
-                <label for="login" class="col-md-4 col-form-label text-md-end">{{ __('Username or Email') }}</label>
-            
-                <div class="col-md-6">
-                    <input id="login" type="text" class="form-control @error('login') is-invalid @enderror" name="login" value="{{ old('login') }}" required autofocus>
-            
-                    @error('login')
-                        <span class="invalid-feedback" role="alert">
-                            <strong>{{ $message }}</strong>
-                        </span>
-                    @enderror
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Paradox Game Center</title>
+    @vite('resources/css/app.css') {{-- Pastikan konfigurasi Vite untuk Tailwind sudah benar --}}
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-black text-white h-screen">
+    <div class="flex h-full">
+        <!-- Left Section: Background Image -->
+        <div class="w-2/5 h-full">
+            <img 
+                alt="Background image of a group of performers on stage with red props" 
+                class="w-full h-full object-cover" 
+                src="{{ asset('assets\img\Twice login.png') }}" 
+            />
+        </div>
+        <!-- Right Section: Login Form -->
+        <div class="w-3/5 h-full flex items-center justify-center bg-black">
+            <div class="bg-black bg-opacity-75 p-12 rounded-lg max-w-lg w-3/4">
+                <!-- Logo and Title -->
+                <div class="flex items-center justify-center mb-5">
+                    <img 
+                        alt="Paradox Game Center logo" 
+                        class="w-20 h-20" 
+                        src="{{ asset('assets\img\BASE_8.png') }}" 
+                    />
+                    <h1 class="text-3xl font-bold ml-4">PARADOX ADMIN</h1>
                 </div>
+                <!-- Login Form -->
+                <form method="POST" action="{{ route('login') }}">
+                    @csrf
+                    <!-- Username Field -->
+                    <div class="mb-3">
+                        <label class="block text-lg font-bold mb-3" for="username">USERNAME</label>
+                        <div class="relative">
+                            <input 
+                                class="w-full px-5 py-3 bg-red-700 text-white text-lg rounded focus:outline-none focus:ring-2 focus:ring-red-500" 
+                                id="login" 
+                                type="text" 
+                                name="login" 
+                                value=""
+                                autocomplete="new-password" 
+                                required 
+                                autofocus
+                            />
+                            <i class="fas fa-user absolute right-4 top-4 text-white text-lg"></i>
+                        </div>
+                        @error('username')
+                            <span class="text-red-500 text-sm">{{ $message }}</span>
+                        @enderror
+                    </div>
+                    <!-- Password Field -->
+                    <div class="mb-8">
+                        <label class="block text-lg font-bold mb-3" for="password">PASSWORD</label>
+                        <div class="relative">
+                            <input 
+                                class="w-full px-5 py-3 bg-red-700 text-white text-lg rounded focus:outline-none focus:ring-2 focus:ring-red-500" 
+                                id="password" 
+                                type="password" 
+                                name="password"
+                                value="" 
+                                autocomplete="new-password"
+                                required
+                            />
+                            <i class="fas fa-key absolute right-4 top-4 text-white text-lg"></i>
+                        </div>
+                        @error('password')
+                            <span class="text-red-500 text-sm">{{ $message }}</span>
+                        @enderror
+                    </div>
+                    <!-- Login Button -->
+                    <button 
+                        class="w-full py-3 bg-red-700 text-white font-bold text-lg rounded hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-red-500" 
+                        type="submit">
+                        LOGIN
+                    </button>
+                </form>
             </div>
-            
-            <div class="row mb-3">
-                <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
-            
-                <div class="col-md-6">
-                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-            
-                    @error('password')
-                        <span class="invalid-feedback" role="alert">
-                            <strong>{{ $message }}</strong>
-                        </span>
-                    @enderror
-                </div>
-            </div>
-            <!-- Login Button -->
-            <div class="flex justify-center">
-                <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700">Login</button>
-            </div>
-        </form>
+        </div>
     </div>
-</div>
-@endsection
+</body>
+</html>

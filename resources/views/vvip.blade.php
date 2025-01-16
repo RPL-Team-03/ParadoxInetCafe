@@ -2,7 +2,7 @@
 @section('title', 'Detail PC VVIP')
 @section('container')
 <section class="bg-black">
-    <div class="flex text-white py-8 px-64 items-center justify-end">
+    <div class="flex text-white py-5 px-64 items-center justify-end">
         <h1 class="text-5xl font-extrabold">DETAIL</h1>
     </div>
     <div class="grid grid-cols-2">

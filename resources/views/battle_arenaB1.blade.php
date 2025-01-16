@@ -10,15 +10,15 @@
             <div class="flex pl-48 text-center text-4xl">
                 <h1 class="font-extrabold">BATTLE ARENA (B1)<br>SPECIFICATION</h1>
             </div>
-            <div class="space-y-4 justify-center pl-48 mt-14">
-                <p class="text-3xl font-semibold">Intel 17-10700K</p>
-                <p class="text-3xl font-semibold">RAM 32GB</p>
-                <p class="text-3xl font-semibold">VGA RTX 3080 TI</p>
-                <p class="text-3xl font-semibold">Monitor MSI 360HZ</p>
-                <p class="text-3xl font-semibold">Headset Hyper X Cloud II</p>
-                <p class="text-3xl font-semibold">Keyboard MAXFIT81 MK910</p>
-                <p class="text-3xl font-semibold">Mouse Logitech G102</p>
-                <p class="text-3xl font-semibold">Private Room</p>
+            <div class="space-y-4 justify-center pl-48 mt-12">
+                <p class="text-2xl font-semibold">Intel 17-10700K</p>
+                <p class="text-2xl font-semibold">RAM 32GB</p>
+                <p class="text-2xl font-semibold">VGA RTX 3080 TI</p>
+                <p class="text-2xl font-semibold">Monitor MSI 360HZ</p>
+                <p class="text-2xl font-semibold">Headset Hyper X Cloud II</p>
+                <p class="text-2xl font-semibold">Keyboard MAXFIT81 MK910</p>
+                <p class="text-2xl font-semibold">Mouse Logitech G102</p>
+                <p class="text-2xl font-semibold">Private Room</p>
             </div>
         </div>
         <div class="flex items-center justify-center pt-14">
@@ -26,8 +26,8 @@
         </div>
     </div>
     {{-- Twice Image --}}
-    <div class="flex justify-end mr-24 z-0">
-        <img src="assets/img/IMG_B1.png" alt="Twice Img" class="w-2/4">
+    <div class="flex justify-end mr-20 z-0">
+        <img src="assets/img/IMG_B1.png" alt="Twice Img" class="w-2/3">
     </div>
 </section>
 @endsection

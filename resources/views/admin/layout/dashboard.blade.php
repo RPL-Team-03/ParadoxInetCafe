@@ -16,7 +16,7 @@
         <div class="pl-5">
             <a href="#" class="flex items-center space-x-4">
                 <img src="assets/img/BASE_8.png" alt="ini logo" class="w-1/6">
-                <span class="text-xl font-bold text-white">PARADOX GAME CENTER</span>
+                <span class="text-xl font-bold text-white">PARADOX ADMIN</span>
             </a>
         </div>
 
@@ -31,6 +31,23 @@
         LOGOUT
     </button>
 </form>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h5>Welcome, {{ Auth::user()->username }}</h5>
+                    <p>Your email: {{ Auth::user()->email }}</p>
+                    
+                    <a href="{{ route('edit.credentials') }}" class="btn btn-primary mt-3">
+                        Edit Credentials
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
         </nav>
     </aside>

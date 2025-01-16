@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\LoginController;
+
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/admin', function () {
@@ -31,6 +34,11 @@ Route::get('/BattleArena_A1', function () {
 Route::get('/BattleArena_B1', function () {
     return view('battle_arenaB1');
 });
+
+Route::get('/edit-credentials', [App\Http\Controllers\ProfileController::class, 'edit'])->name('edit.credentials');
+Route::post('/edit-credentials', [App\Http\Controllers\ProfileController::class, 'update'])->name('update.credentials');
+
+
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');
