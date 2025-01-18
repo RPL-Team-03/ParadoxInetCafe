@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\AvailabilityController;
 
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
@@ -38,6 +39,10 @@ Route::get('/BattleArena_B1', function () {
 Route::get('/edit-credentials', [App\Http\Controllers\ProfileController::class, 'edit'])->name('edit.credentials');
 Route::post('/edit-credentials', [App\Http\Controllers\ProfileController::class, 'update'])->name('update.credentials');
 
+Route::post('/update-a1', [AvailabilityController::class, 'updateA1'])->name('update.a1');
+Route::post('/update-b1', [AvailabilityController::class, 'updateB1'])->name('update.b1');
+Route::post('/update-reguler', [AvailabilityController::class, 'updateReguler'])->name('update.reguler');
+Route::post('/update-vvip', [AvailabilityController::class, 'updateVVIP'])->name('update.vvip');
 
 Auth::routes();
 

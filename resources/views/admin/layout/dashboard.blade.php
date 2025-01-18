@@ -63,62 +63,87 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- Card 1 -->
             <div class="bg-gray-900 rounded-lg p-4">
-                <img src="https://via.placeholder.com/300x150" alt="Reguler" class="rounded-lg mb-4">
-                <h2 class="text-lg font-bold mb-2">REGULER</h2>
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center">
-                        <span class="mr-2">💻 Available:</span>
-                        <input type="number" class="w-16 h-8 text-black rounded px-2" placeholder="0">
+                <img src="https://via.placeholder.com/300x150" alt="Battle Arena A1" class="rounded-lg mb-4">
+                <h2 class="text-lg font-bold mb-2">BATTLE ARENA (A1)</h2>
+                <form action="{{ route('update.a1') }}" method="POST">
+                    @csrf
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <span class="mr-2">💻 Available:</span>
+                            <input type="number" name="a1" class="mr-2 w-16 h-8 text-black rounded px-2" placeholder="0" value="{{ old('a1', Session::get('a1', 0)) }}">
+                            <button type="submit" class="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded">
+                                Update Availability
+                            </button>
+                        </div>
+                        <button class="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded">
+                            Update Picture
+                        </button>
                     </div>
-                    <button class="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded">
-                        Update Picture
-                    </button>
+                </form>                
                 </div>
-            </div>
+            
 
             <!-- Card 2 -->
             <div class="bg-gray-900 rounded-lg p-4">
-                <img src="https://via.placeholder.com/300x150" alt="VVIP" class="rounded-lg mb-4">
-                <h2 class="text-lg font-bold mb-2">VVIP</h2>
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center">
-                        <span class="mr-2">💻 Available:</span>
-                        <input type="number" class="w-16 h-8 text-black rounded px-2" placeholder="0">
+                <img src="https://via.placeholder.com/300x150" alt="Battle Arena B1" class="rounded-lg mb-4">
+                <h2 class="text-lg font-bold mb-2">BATTLE ARENA (B1)</h2>
+                <form action="{{ route('update.b1') }}" method="POST">
+                    @csrf
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <span class="mr-2">💻 Available:</span>
+                            <input type="number" name="b1" class="mr-2 w-16 h-8 text-black rounded px-2" placeholder="0" value="{{ old('b1', Session::get('b1', 0)) }}">
+                            <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
+                                Update Availability
+                            </button>
+                        </div>
+                        <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
+                            Update Picture
+                        </button>
                     </div>
-                    <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
-                        Update Picture
-                    </button>
-                </div>
+                </form>
             </div>
 
             <!-- Card 3 -->
             <div class="bg-gray-900 rounded-lg p-4">
-                <img src="https://via.placeholder.com/300x150" alt="Battle Arena B1" class="rounded-lg mb-4">
-                <h2 class="text-lg font-bold mb-2">BATTLE ARENA (B1)</h2>
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center">
-                        <span class="mr-2">💻 Available:</span>
-                        <input type="number" class="w-16 h-8 text-black rounded px-2" placeholder="0">
+                <img src="https://via.placeholder.com/300x150" alt="Reguler" class="rounded-lg mb-4">
+                <h2 class="text-lg font-bold mb-2">REGULER</h2>
+                <form action="{{ route('update.reguler') }}" method="POST">
+                    @csrf
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <span class="mr-2">💻 Available:</span>
+                            <input type="number" name="reguler" class="mr-2 w-16 h-8 text-black rounded px-2" placeholder="0" value="{{ old('reguler', Session::get('reguler', 0)) }}">
+                            <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
+                                Update Availability
+                            </button>
+                        </div>
+                        <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
+                            Update Picture
+                        </button>
                     </div>
-                    <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
-                        Update Picture
-                    </button>
-                </div>
+                </form>
             </div>
 
             <!-- Card 4 -->
             <div class="bg-gray-900 rounded-lg p-4">
-                <img src="https://via.placeholder.com/300x150" alt="Battle Arena A1" class="rounded-lg mb-4">
-                <h2 class="text-lg font-bold mb-2">BATTLE ARENA (A1)</h2>
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center">
-                        <span class="mr-2">💻 Available:</span>
-                        <input type="number" class="w-16 h-8 text-black rounded px-2" placeholder="0">
+                <img src="https://via.placeholder.com/300x150" alt="VVIP" class="rounded-lg mb-4">
+                <h2 class="text-lg font-bold mb-2">VVIP</h2>
+                <form action="{{ route('update.vvip') }}" method="POST">
+                    @csrf
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <span class="mr-2">💻 Available:</span>
+                            <input type="number" name="vvip" class="mr-2 w-16 h-8 text-black rounded px-2" placeholder="0" value="{{ old('vvip', Session::get('vvip', 0)) }}">
+                            <button type="submit" class="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded">
+                                Update Availability
+                            </button>
+                        </div>
+                        <button class="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded">
+                            Update Picture
+                        </button>
                     </div>
-                    <button class="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded">
-                        Update Picture
-                    </button>
-                </div>
+                </form>
             </div>
         </div>
     </main>
