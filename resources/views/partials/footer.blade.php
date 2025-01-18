@@ -1,4 +1,4 @@
-<footer class="bg-black text-white">
+<footer id="footer" class="bg-black text-white">
     <div class="mx-auto w-full max-w-screen-xl p-6 lg:py-8">
         <!-- Bagian Atas Footer -->
         <div class="flex flex-col lg:flex-row items-center justify-center lg:space-x-20 text-center lg:text-left space-y-4 lg:space-y-0">

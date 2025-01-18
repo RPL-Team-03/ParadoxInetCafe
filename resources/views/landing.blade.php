@@ -17,10 +17,10 @@
 
             <!-- Buttons -->
             <div class="flex justify-center space-x-6" data-aos="fade-up" data-aos-duration="1500">
-                <a href="#" class="bg-red-500 hover:bg-red-400 text-white text-lg font-medium py-3 px-8 rounded-sm">
+                <a href="#footer" class="bg-red-500 hover:bg-red-400 text-white text-lg font-medium py-3 px-8 rounded-sm">
                     CONTACT US
                 </a>
-                <a href="#"
+                <a href="#price-list"
                     class="bg-blue-500 hover:bg-blue-400 text-white text-lg font-medium py-3 px-10 rounded-sm">
                     PRICE LIST
                 </a>
@@ -35,7 +35,7 @@
     </div>
 
     {{-- Card Container --}}
-    <section class="flex bg-black items-center justify-center py-6">
+    <section id="detail-pc" class="flex bg-black items-center justify-center py-6">
         {{-- Card 1 --}}
         <div class="py-10 px-8" data-aos="fade-right" data-aos-duration="1000">
             <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
@@ -128,7 +128,7 @@
     </section>
 
     {{-- Pricelist --}}
-    <section class="bg-black pb-16">
+    <section id="price-list" class="bg-black pb-16">
         <div class="flex text-white py-20 px-64 items-center justify-end">
             <h1 class="text-5xl font-extrabold">PRICELIST</h1>
         </div>
@@ -253,7 +253,7 @@
     </section>
 
     {{-- FAQ Section --}}
-<section class="text-white" style="background-image: url('assets/img/FAQ.png'); background-position: center; background-repeat:no-repeat; background-size: cover;">
+<section id="faq" class="text-white" style="background-image: url('assets/img/FAQ.png'); background-position: center; background-repeat:no-repeat; background-size: cover;">
     <div class="py-10 justify-start ml-40">
         <h1 class="font-extrabold text-6xl">FAQ</h1>
     </div>
