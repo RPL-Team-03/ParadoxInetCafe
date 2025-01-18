@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
+    @php
+    $availability = \App\Models\Availability::first() ?? new \App\Models\Availability();
+    @endphp
 
     <title>Paradox Admin | Home</title>
 </head>
@@ -70,7 +73,7 @@
                     <div class="flex items-center justify-between">
                         <div class="flex items-center">
                             <span class="mr-2">💻 Available:</span>
-                            <input type="number" name="a1" class="mr-2 w-16 h-8 text-black rounded px-2" placeholder="0" value="{{ old('a1', Session::get('a1', 0)) }}">
+                            <input type="number" name="a1" class="mr-2 w-16 h-8 text-black rounded px-2" placeholder="0" value="{{ old('a1', $availability->a1) }}">
                             <button type="submit" class="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded">
                                 Update Availability
                             </button>
@@ -92,7 +95,7 @@
                     <div class="flex items-center justify-between">
                         <div class="flex items-center">
                             <span class="mr-2">💻 Available:</span>
-                            <input type="number" name="b1" class="mr-2 w-16 h-8 text-black rounded px-2" placeholder="0" value="{{ old('b1', Session::get('b1', 0)) }}">
+                            <input type="number" name="b1" class="mr-2 w-16 h-8 text-black rounded px-2" placeholder="0" value="{{ old('b1', $availability->b1) }}">
                             <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
                                 Update Availability
                             </button>
@@ -113,7 +116,7 @@
                     <div class="flex items-center justify-between">
                         <div class="flex items-center">
                             <span class="mr-2">💻 Available:</span>
-                            <input type="number" name="reguler" class="mr-2 w-16 h-8 text-black rounded px-2" placeholder="0" value="{{ old('reguler', Session::get('reguler', 0)) }}">
+                            <input type="number" name="reguler" class="mr-2 w-16 h-8 text-black rounded px-2" placeholder="0" value="{{ old('reguler', $availability->reguler) }}">
                             <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
                                 Update Availability
                             </button>
@@ -134,7 +137,7 @@
                     <div class="flex items-center justify-between">
                         <div class="flex items-center">
                             <span class="mr-2">💻 Available:</span>
-                            <input type="number" name="vvip" class="mr-2 w-16 h-8 text-black rounded px-2" placeholder="0" value="{{ old('vvip', Session::get('vvip', 0)) }}">
+                            <input type="number" name="vvip" class="mr-2 w-16 h-8 text-black rounded px-2" placeholder="0" value="{{ old('vvip', $availability->vvip) }}">
                             <button type="submit" class="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded">
                                 Update Availability
                             </button>

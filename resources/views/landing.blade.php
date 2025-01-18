@@ -1,6 +1,9 @@
 @extends('layouts.main')
 @section('title', 'Home')
 @section('container')
+@php
+    $availability = \App\Models\Availability::first() ?? new \App\Models\Availability();
+@endphp
     <div class="relative bg-black text-white min-h-screen flex flex-col items-center justify-center">
         <!-- Background Image -->
         <div class="absolute inset-0">
@@ -49,7 +52,7 @@
                     </a>
                     <div class="flex space-x-3">
                         <i class="ri-computer-line text-white text-lg"></i>
-                        <p class="mb-3 font-extrabold text-lg text-gray-700 dark:text-gray-400">Available : {{ Session::get('a1', 0) }}</p>
+                        <p class="mb-3 font-extrabold text-lg text-gray-700 dark:text-gray-400">Available : {{ $availability->a1 }}</p>
                     </div>
                     <a href="/BattleArena_A1"
                         class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
@@ -72,7 +75,7 @@
                     </a>
                     <div class="flex space-x-3">
                         <i class="ri-computer-line text-white text-lg"></i>
-                        <p class="mb-3 font-extrabold text-lg text-gray-700 dark:text-gray-400">Available : {{ Session::get('b1', 0) }}</p>
+                        <p class="mb-3 font-extrabold text-lg text-gray-700 dark:text-gray-400">Available : {{ $availability->b1 }}</p>
                     </div>
                     <a href="/BattleArena_B1"
                         class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -94,7 +97,7 @@
                     </a>
                     <div class="flex space-x-3">
                         <i class="ri-computer-line text-white text-lg"></i>
-                        <p class="mb-3 font-extrabold text-lg text-gray-700 dark:text-gray-400">Available : {{ Session::get('reguler', 0) }}</p>
+                        <p class="mb-3 font-extrabold text-lg text-gray-700 dark:text-gray-400">Available : {{ $availability->reguler }}</p>
                     </div>
                     <a href="/reguler"
                         class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
@@ -116,7 +119,7 @@
                     </a>
                     <div class="flex space-x-3">
                         <i class="ri-computer-line text-white text-lg"></i>
-                        <p class="mb-3 font-extrabold text-lg text-gray-700 dark:text-gray-400">Available : {{ Session::get('vvip', 0) }}</p>
+                        <p class="mb-3 font-extrabold text-lg text-gray-700 dark:text-gray-400">Available : {{ $availability->vvip }}</p>
                     </div>
                     <a href="/vvip"
                         class="flex items-center px-3 py-2 text-md font-medium text-center justify-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
