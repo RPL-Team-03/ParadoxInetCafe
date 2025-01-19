@@ -23,6 +23,10 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/update_detail', function() {
         return view('admin.layout.update_detail');
     });
+
+    Route::get('form_detail', function() {
+        return view('admin.layout.form_detail');
+    });
 });
 
 Route::get('/', function () {

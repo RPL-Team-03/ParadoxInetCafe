@@ -60,7 +60,7 @@
         <!-- Buttons -->
         <footer class="flex justify-center space-x-4 mt-8 pb-10">
             <button class="bg-red-600 px-10 py-2  text-lg font-bold">CREATE</button>
-            <button class="bg-red-600 px-10 py-2  text-lg font-bold">UPDATE</button>
+            <a href="/form_detail"><button class="bg-red-600 px-10 py-2  text-lg font-bold">UPDATE</button></a>
             <button class="bg-red-600 px-10 py-2  text-lg font-bold">DELETE</button>
         </footer>
 </div>
