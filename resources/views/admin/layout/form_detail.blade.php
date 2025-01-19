@@ -42,21 +42,25 @@
         <div class="flex-1">
             <div class="mb-5">
                 <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Judul</label>
-                <input type="text" id="text"
-                    class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
-                    placeholder="Spesifikasi Reguler" required />
+                <form action="" method="POST">
+                    <input type="text" id="text"
+                        class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                        placeholder="Spesifikasi Reguler" required />
+                </form>
             </div>
             <div class="mb-5">
                 <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Rincian</label>
-                <input type="text" id="text"
-                    class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
-                    required />
+                <form action="" method="POST">
+                    <input type="text" id="text"
+                        class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                        required />
+                </form>
             </div>
         </div>
 
         <div class="flex justify-center space-x-4 mt-8 pb-10">
             <button class="bg-red-600 px-10 py-2  text-lg font-bold">CREATE</button>
-            <a href="/form_detail"><button class="bg-red-600 px-10 py-2  text-lg font-bold">UPDATE</button></a>
+            <button class="bg-red-600 px-10 py-2  text-lg font-bold">UPDATE</button>
             <button class="bg-red-600 px-10 py-2  text-lg font-bold">DELETE</button>
         </div>
 
@@ -67,15 +71,19 @@
         <div class="flex-1">
             <div class="mb-5">
                 <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Judul</label>
-                <input type="text" id="text"
-                    class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
-                    placeholder="Spesifikasi VVIP" required />
+                <form action="" method="POST">
+                    <input type="text" id="text"
+                        class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                        placeholder="Spesifikasi VVIP" required />
+                </form>
             </div>
             <div class="mb-5">
                 <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Rincian</label>
-                <input type="text" id="text"
-                    class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
-                    required />
+                <form action="" method="POST">
+                    <input type="text" id="text"
+                        class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                        required />
+                </form>
             </div>
         </div>
 
