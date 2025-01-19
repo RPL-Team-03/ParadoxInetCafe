@@ -15,6 +15,14 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin_detail', function () {
         return view('admin.layout.detail_admin');
     });
+
+    Route::get('/update_battle', function() {
+        return view('admin.layout.update_battle');
+    });
+
+    Route::get('/update_detail', function() {
+        return view('admin.layout.update_detail');
+    });
 });
 
 Route::get('/', function () {
