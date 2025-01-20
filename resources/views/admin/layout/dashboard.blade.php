@@ -26,7 +26,6 @@
         <!-- Navigation Menu -->
         <nav class="flex flex-col py-10 space-y-6 px-12">
             <a href="/admin" class="hover:text-red-600 font-bold py-4 px-4 text-2xl rounded-full">HOME</a>
-            <a href="/admin_detail" class="hover:text-red-600 font-bold py-4 px-4 text-2xl rounded-full">DETAIL</a>
             <!-- Tombol Logout -->
 <form action="{{ route('logout') }}" method="POST" style="display: inline;">
     @csrf
@@ -78,9 +77,7 @@
                                 Update Availability
                             </button>
                         </div>
-                        <button class="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded">
-                            Update Picture
-                        </button>
+
                     </div>
                 </form>                
                 </div>
@@ -100,9 +97,7 @@
                                 Update Availability
                             </button>
                         </div>
-                        <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
-                            Update Picture
-                        </button>
+                        
                     </div>
                 </form>
             </div>
@@ -120,10 +115,7 @@
                             <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
                                 Update Availability
                             </button>
-                        </div>
-                        <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded">
-                            Update Picture
-                        </button>
+                        </div>    
                     </div>
                 </form>
             </div>
@@ -142,9 +134,7 @@
                                 Update Availability
                             </button>
                         </div>
-                        <button class="bg-red-600 hover:bg-red-700 text-white px-4 py-1 rounded">
-                            Update Picture
-                        </button>
+                        
                     </div>
                 </form>
             </div>

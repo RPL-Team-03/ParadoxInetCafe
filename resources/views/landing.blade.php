@@ -89,7 +89,7 @@
         <div class="py-10 px-8" data-aos="fade-right" data-aos-duration="2000">
             <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
-                    <img class="rounded-t-lg" src="" alt="Image Reguler" />
+                    <img class="rounded-t-lg" src="\assets\img\reguler (1).png" alt="Image Reguler" />
                 </a>
                 <div class="p-6">
                     <a href="#">
@@ -111,7 +111,7 @@
         <div class="py-10 px-8" data-aos="fade-right" data-aos-duration="2500">
             <div class="max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
-                    <img class="rounded-t-lg" src="" alt="Image VVIP" />
+                    <img class="rounded-t-lg" src="\assets\img\VVIP1 (1).png" alt="Image VVIP" />
                 </a>
                 <div class="p-7">
                     <a href="#">
@@ -270,7 +270,7 @@
             </button>
         </div>
         <div id="faq1" class="px-5 py-2.5 bg-black text-white hidden">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
+            Jam Operasional Warnet: 24/7
         </div>
     </div>
     </div>
@@ -283,7 +283,7 @@
             </button>
         </div>
         <div id="faq2" class="px-5 py-2.5 bg-black text-white hidden">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
+            Boleh, kami juga menyediakan makanan dan minuman untuk dibeli di dalam warnet.
         </div>
     </div>
     </div>
@@ -296,7 +296,7 @@
             </button>
         </div>
         <div id="faq3" class="px-5 py-2.5 bg-black text-white hidden">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
+            Untuk sistem booking bisa join grup whatsapp dan untuk linknya ada di bio instagram kita dan dibawah bagian FAQ ini
         </div>
     </div>
     </div>
@@ -308,7 +308,7 @@
             </button>
         </div>
         <div id="faq4" class="px-5 py-2.5 bg-black text-white hidden">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla optio, quod labore, placeat molestias alias ut esse tempora accusamus nihil harum vero eaque minima consectetur consequuntur similique obcaecati illum.
+            15 motor, maksimal 20 motor
         </div>
     </div>
     

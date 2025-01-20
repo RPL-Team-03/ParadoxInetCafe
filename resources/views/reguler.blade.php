@@ -7,7 +7,7 @@
         </div>
         <div class="grid grid-cols-2">
             <div class="flex items-center justify-center pt-14">
-                <img src="assets/img/REG_Detail.jpeg" alt="PC1" class="w-3/4 mt-6 ml-72 rounded-md"/>
+                <img src="assets\img\regdetail.png" alt="PC1" class="w-4/5 mt-6 ml-72 rounded-md"/>
             </div>
             <div class="text-white mt-20">
                 <div class="flex justify-center text-center text-4xl">

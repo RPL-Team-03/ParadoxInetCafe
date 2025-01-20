@@ -14,7 +14,7 @@
             <!-- WhatsApp -->
             <div class="flex items-center space-x-2">
                 <img src="assets/img/whatsapp.png" alt="WhatsApp Icon" class="h-6 w-6">
-                <a href="https://wa.me/628952020****" class="text-white text-xl font-semibold hover:underline" target="_blank">0895-2020-****</a>
+                <a href="https://chat.whatsapp.com/IHnQqpFMWM7Abyk7PP4ikD" class="text-white text-xl font-semibold hover:underline" target="_blank">WhatsApp Group</a>
             </div>
         </div>
 
